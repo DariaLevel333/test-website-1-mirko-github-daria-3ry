@@ -23,6 +23,7 @@ jobs:
         run: npm ci
         env:
           CLOUDSMITH_TOKEN: ${{ secrets.CLOUDSMITH_TOKEN }}
+
       - name: Install Playwright browsers
         run: npx playwright install chromium
       - name: Run Playwright tests
@@ -30,6 +31,9 @@ jobs:
 
       - name: Level CI Accessibility Analysis
         uses: levelaccess/level-ci@dev
+        env:
+          LEVEL_CI_TOKEN: ${{ secrets.LEVEL_CI_TOKEN }}
+          NGROK_AUTHTOKEN: ${{ secrets.NGROK_AUTHTOKEN }}
         with:
           token: ${{ secrets.LEVEL_CI_TOKEN }}
           report_paths: './level-ci-reports'
