@@ -8,8 +8,8 @@
     "test:puppeteer": "jest --forceExit --silent --noStackTrace --ci --logHeapUsage --maxWorkers=10"
   },
   "devDependencies": {
-    "@level-ci/a11y-playwright": "^0.1.1-preview-20251210133225",
-    "@level-ci/cli": "^0.1.10-alpha.2835",
+    "@level-ci/a11y-playwright": "^0.1.1-alpha-20260401151807",
+    "@level-ci/cli": "^0.1.16-alpha.2899",
     "@playwright/test": "^1.57.0",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.30",

@@ -1,6 +1,6 @@
 import type { Config } from "@level-ci/cli";
 export default {
- organization: "level-ci-9982245362484546-levelaccess-com-zhysx",
+ organization: "daria-osokina-1-levelaccess-com-kofcj",
  project: "test-website-1-mirko-github-daria",
  token: process.env.LEVEL_CI_TOKEN,
  server: "https://api.dev.userway.dev",
