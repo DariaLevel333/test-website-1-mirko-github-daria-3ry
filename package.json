@@ -4,12 +4,11 @@
   "scripts": {
     "dev": "node app.js",
     "test:cypress": "cypress run --config-file cypress/config/cypress.config.js --browser=electron --e2e",
-    "test:playwright": "npx playwright test",
-    "test:puppeteer": "jest --forceExit --silent --noStackTrace --ci --logHeapUsage --maxWorkers=10"
+    "test:playwright": "npx playwright test"
   },
   "devDependencies": {
-    "@level-ci/a11y-playwright": "^0.1.1-alpha-20260401151807",
-    "@level-ci/cli": "^0.1.16-alpha.2899",
+    "@level-ci/a11y-playwright": "^0.2.2-alpha-20260513082525",
+    "@level-ci/cli": "^0.1.17-alpha.3033",
     "@playwright/test": "^1.57.0",
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.30",
