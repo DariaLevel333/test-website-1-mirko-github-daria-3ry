@@ -36,7 +36,7 @@ jobs:
         with:
           secondary_repository_key: project-c
           branch: feature-pr
-          pull_request: 1
+          pull_request: ${{ github.event.number }}
           commit_hash: ${{ github.sha }}                  
           token: ${{ secrets.LEVEL_CI_TOKEN }}
           report_paths: './level-ci-reports'
