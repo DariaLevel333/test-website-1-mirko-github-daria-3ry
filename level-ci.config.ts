@@ -8,6 +8,6 @@ export default {
     'main': {
     scope: 'overall'
     },
-    }
+    },
  reportPaths: ['./level-ci-reports']
 } satisfies Config;
