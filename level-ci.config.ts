@@ -4,10 +4,5 @@ export default {
  project: 'test-website-1-mirko-github-daria',
  token: process.env.LEVEL_CI_TOKEN,
  server: "https://api.dev.userway.dev",
- override: {
-    'main': {
-    scope: 'overall'
-    },
-    },
  reportPaths: ['./level-ci-reports']
 } satisfies Config;
